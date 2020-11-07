@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Utah Adventure Tour</title>
+    <link rel="icon" href="assets/adventure-logo.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width initial-scale=1">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Condensed" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- NAVIGATION -->
+    <div class="navigation-wrapper">
+        <!--Left column-->
+        <div class="left-column">
+            <div>
+                <div> 555-555-5555</div>
+                <div> 10AM - MIDNIGHT </div>
+            </div>
+        </div>
+        <!--CENTER COLUMN-->
+        <div class="center-column">
+            <!--LOGO-->
+            <div class="logo">
+                <img src="assets/adventure-logo.png" alt="logo">
+            </div>
+            <!--Links-->
+            <div class="links-wrapper">
+                <div class="nav-link">
+                    <a href="index.html"> Home </a>
+                </div>
+
+                <div class="nav-link">
+                    <a href="ourcatalog.html">Our Adventure Catalog</a>
+                </div>
+
+                <div class="nav-link">
+                    <a href="custom.html">Custom Your Adventure</a>
+                </div>
+
+
+                <div class="nav-link">
+                    <a href="contact.html">Contact us</a>
+                </div>
+            </div>
+        </Div>
+
+        <!--Right column-->
+        <div class="right-column">
+            <div>
+                <div> 123 Main Street</div>
+                <div> Salt Lake City, UT 84109</div>
+            </div>
+
+        </div>
+    </div>
+
+    <style>
+        .flex-container {
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+            margin-left: 50px;
+        }
+
+        .left-side {
+            height: 310px;
+            width: 500px;
+        }
+
+        .title {
+            font-size: 30px;
+            font-weight: bold;
+            color: #B65B2E;
+        }
+
+        .right-side {
+            margin-left: 100px;
+            margin-top: 60px;
+            height: 310px;
+            width: 800px;
+        }
+
+        .details {
+            font-size: 15px;
+            font-weight: bold;
+            color: #B65B2E;
+        }
+    </style>
+
+
+    <div class="flex-container">
+        <div class="left-side">
+            <div class="details"></div>
+            <img src="assets/custom2.jpg" height="300px">
+        </div>
+
+
+
+        <!-- again, this div is splitting the space -->
+        <div class="right-side">
+            <div class="details">
+                <h3> We guide custom adventures all over Utah for groups of all ages, sizes and abilities. </h3>
+                <h3> We can put together a great custom adventure that suits your needs and schedules. </h3>
+                <h3> Fill the below form to discuss your group adventure objectives!</h3>
+            </div>
+
+            <div style="margin-top:50px">
+
+                <div class="left-side">
+                    <div class="details">
+                        <form>
+                            <label> Full name:
+                                <input type="text" placeholder="First & Last Name">
+                            </label>
+
+                            <div style="margin-top:15px">
+
+                                <label> Where are you planning to go?
+                                    <input type="text" placeholder="Example: Moab, Zion, etc.">
+                                </label>
+
+
+                                <div style="margin-top:15px"></div>
+
+                                <label> Your group size:
+                                    <input type="text" placeholder="Example: 5 adults">
+                                </label>
+
+
+                                <div style="margin-top:15px"></div>
+
+                                <label> When is your trip?:
+                                    <input type="text" placeholder="Example: May 2021">
+                                </label>
+
+                                <div style="margin-top:15px"></div>
+
+                                <div>
+                                    <label> Additional Information</label>
+                                    <div>
+                                        <textarea placeholder="Enter Text" row="30" column="30"></textarea>
+                                    </div>
+                                </div>
+
+                                <button type="button"> Submit </button>
+
+
+
+                        </form>
+                    </div>
+
+                </div>
+            </div>
